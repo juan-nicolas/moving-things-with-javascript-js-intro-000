@@ -19,12 +19,12 @@ function moveDodgerRight(){
   var left = parseInt(leftNum, 10)
   var right = left + dodger.offsetWidth
   var gameW = game.offsetWidth
-  
+
   if (right < gameW){
     if (gameW - right > speed){
       dodger.style.left = `${left + speed}px`
     } else {
-      dodger.style.left = `${gameW - dodgerW}px`
+      dodger.style.left = `${gameW - dodger.offsetWidth}px`
     }
   }
 }
