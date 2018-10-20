@@ -7,8 +7,9 @@ document.addEventListener('keydown', function(e){
     var leftNum = dodger.style.left.replace('px','')
     var left = parseInt(leftNum, 10)
 		console.log(leftNum)
-		console.log('${left}left')
+		console.log(left)
 
-		console.log(dodger.style.left)
+		dodger.style.left = `${left-1}px`
+    console.log(dodger.style.left)
 	}
 })
