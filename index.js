@@ -10,6 +10,5 @@ document.addEventListener('keydown', function(e){
 		console.log(left)
 
 		dodger.style.left = `${left-1}px`
-    console.log(dodger.style.left)
 	}
 })
