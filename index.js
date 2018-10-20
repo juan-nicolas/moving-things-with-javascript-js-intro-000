@@ -1,6 +1,6 @@
 var dodger = document.getElementById('dodger')
 var game = document.getElementById('game')
-var speed = 1
+var speed = 25
 
 function moveDodgerLeft(){
   var leftNum = dodger.style.left.replace('px','')
